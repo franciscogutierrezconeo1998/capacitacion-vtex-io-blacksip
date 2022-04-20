@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#categorias-container": {
+    "title": "Fila principal de las categorias",
+    "children": [
+      "flex-layout.col#col-title-link",
+      "flex-layout.col#col-cat-1",
+      "flex-layout.col#col-cat-2",
+      "flex-layout.col#col-cat-3",
+      "flex-layout.col#col-cat-4",
+      "flex-layout.col#col-cat-5",
+      "flex-layout.col#col-cat-1",
+      "flex-layout.col#col-cat-2",
+      "flex-layout.col#col-cat-3"
+    ],
+    "props": {
+      "marginTop": 7
+    }
+  },
+
+  "flex-layout.col#col-title-link": {
+    "title": "Columna de textos con el titulo",
+    "children": [
+      "rich-text#title-category",
+      "rich-text#link-category"
+    ]
+  },
+
+  "rich-text#title-category": {
+    "title": "Texto del titulo de las categorias",
+    "props": {
+      "text": "###### ¿QUÉ ESTAS BUSCANDO?"
+    }
+  },
+
+  "rich-text#link-category": {
+    "title": "Texto del link del titulo de categoría",
+    "props": {
+      "text": "[VER TODO](/)"
+    }
+  },
+
+  "image#categoria-1": {
+    "title": "Imagen de la categoria",
+    "props": {
+      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+    }
+  },
+
+  "flex-layout.col#col-cat-1": {
+    "title": "Columna de la categoria 1",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-1"
+    ]
+  },
+
+  "rich-text#categoria-1": {
+    "title": "Texto de la categoria 1",
+    "props": {
+      "text": "Cuidado Capilar"
+    }
+  },
+    
+  "flex-layout.col#col-cat-2": {
+    "title": "Columna de la categoria 2",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-2"
+    ]
+  },
+
+  "rich-text#categoria-2": {
+    "title": "Texto de la categoria 2",
+    "props": {
+      "text": "Cuidado Corporal"
+    }
+  },
+
+  "flex-layout.col#col-cat-3": {
+    "title": "Columna de la categoria 3",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-3"
+    ]
+  },
+
+  "rich-text#categoria-3": {
+    "title": "Texto de la categoria 3",
+    "props": {
+      "text": "Cuidado Facial"
+    }
+  },
+
+  "flex-layout.col#col-cat-4": {
+    "title": "Columna de la categoria 4",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-4"
+    ]
+  },
+
+  "rich-text#categoria-4": {
+    "title": "Texto de la categoria 4",
+    "props": {
+      "text": "Maquillaje"
+    }
+  },
+
+  "flex-layout.col#col-cat-5": {
+    "title": "Columna de la categoria 5",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-5"
+    ]
+  },
+
+  "rich-text#categoria-5": {
+    "title": "Texto de la categoria 5",
+    "props": {
+      "text": "Cuidado Bebé"
+    }
+  }
+}
