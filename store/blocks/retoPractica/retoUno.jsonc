@@ -1,0 +1,255 @@
+  {
+        //Llamar a en home "flex-layout.row#promesas-container",
+        // Llamar en hombe "flex-layout.row#categorias-container"
+
+  "flex-layout.row#promesas-container": {
+    "title": "Fila principal de las promesas",
+    "children": [
+      "flex-layout.col#col-promise-1",
+      "flex-layout.col#col-promise-2",
+      "flex-layout.col#col-promise-3",
+      "flex-layout.col#col-promise-4",
+      "flex-layout.col#col-promise-5"
+    ]
+  },
+
+  "flex-layout.col#col-promise-1": {
+    "title": "Columna de la promesa 1",
+    "children": [
+      "flex-layout.row#promesa-1"
+    ]
+  },
+
+  "flex-layout.row#promesa-1": {
+    "title": "Fila de la promesa 1",
+    "children": [
+      "image#promesa-1",
+      "rich-text#promesa-1"
+    ]
+  },
+
+  "image#promesa-1": {
+    "title": "Imagen de la promesa",
+    "props": {
+      "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+    }
+  },
+
+  "rich-text#promesa-1": {
+    "title": "Texto de la promesa 1",
+    "props": {
+      "text": "Entegas en **45 min**"
+    }
+  },
+
+  "flex-layout.col#col-promise-2": {
+    "title": "Columna de la promesa 2",
+    "children": [
+      "flex-layout.row#promesa-2"
+    ]
+  },
+
+  "flex-layout.row#promesa-2": {
+    "title": "Fila de la promesa 2",
+    "children": [
+      "image#promesa-1",
+      "rich-text#promesa-2"
+    ]
+  },
+
+  "rich-text#promesa-2": {
+    "title": "Texto de la promesa 2",
+    "props": {
+      "text": "Compra **facil y segura**"
+    }
+  },
+
+  "flex-layout.col#col-promise-3": {
+    "title": "Columna de la promesa 3",
+    "children": [
+      "flex-layout.row#promesa-3"
+    ]
+  },
+
+  "flex-layout.row#promesa-3": {
+    "title": "Fila de la promesa 3",
+    "children": [
+      "image#promesa-1",
+      "rich-text#promesa-3"
+    ]
+  },
+
+  "rich-text#promesa-3": {
+    "title": "Texto de la promesa 3",
+    "props": {
+      "text": "Mejores precios y **ofertas**"
+    }
+  },
+
+  "flex-layout.col#col-promise-4": {
+    "title": "Columna de la promesa 4",
+    "children": [
+      "flex-layout.row#promesa-4"
+    ]
+  },
+
+  "flex-layout.row#promesa-4": {
+    "title": "Fila de la promesa 4",
+    "children": [
+      "image#promesa-1",
+      "rich-text#promesa-4"
+    ]
+  },
+    
+  "rich-text#promesa-4": {
+    "title": "Texto de la promesa 4",
+    "props": {
+      "text": "**Seguimiento** de tus pedidos"
+    }
+  },
+
+  "flex-layout.col#col-promise-5": {
+    "title": "Columna de la promesa 5",
+    "children": [
+      "flex-layout.row#promesa-5"
+    ]
+  },
+
+  "flex-layout.row#promesa-5": {
+    "title": "Fila de la promesa 5",
+    "children": [
+      "image#promesa-1",
+      "rich-text#promesa-5"
+    ]
+  },
+
+  "rich-text#promesa-5": {
+    "title": "Texto de la promesa 5",
+    "props": {
+      "text": "Pago **online contra entrega**"
+    }
+  },
+
+  "flex-layout.row#categorias-container": {
+    "title": "Fila principal de las categorias",
+    "children": [
+      "flex-layout.col#col-title-link",
+      "flex-layout.col#col-cat-1",
+      "flex-layout.col#col-cat-2",
+      "flex-layout.col#col-cat-3",
+      "flex-layout.col#col-cat-4",
+      "flex-layout.col#col-cat-5",
+      "flex-layout.col#col-cat-1",
+      "flex-layout.col#col-cat-2",
+      "flex-layout.col#col-cat-3"
+    ],
+    "props": {
+      "marginTop": 7
+    }
+  },
+
+  "flex-layout.col#col-title-link": {
+    "title": "Columna de textos con el titulo",
+    "children": [
+      "rich-text#title-category",
+      "rich-text#link-category"
+    ]
+  },
+
+  "rich-text#title-category": {
+    "title": "Texto del titulo de las categorias",
+    "props": {
+      "text": "###### ¿QUÉ ESTAS BUSCANDO?"
+    }
+  },
+
+  "rich-text#link-category": {
+    "title": "Texto del link del titulo de categoría",
+    "props": {
+      "text": "[VER TODO](/)"
+    }
+  },
+
+  "image#categoria-1": {
+    "title": "Imagen de la categoria",
+    "props": {
+      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+    }
+  },
+
+  "flex-layout.col#col-cat-1": {
+    "title": "Columna de la categoria 1",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-1"
+    ]
+  },
+
+  "rich-text#categoria-1": {
+    "title": "Texto de la categoria 1",
+    "props": {
+      "text": "Cuidado Capilar"
+    }
+  },
+    
+  "flex-layout.col#col-cat-2": {
+    "title": "Columna de la categoria 2",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-2"
+    ]
+  },
+
+  "rich-text#categoria-2": {
+    "title": "Texto de la categoria 2",
+    "props": {
+      "text": "Cuidado Corporal"
+    }
+  },
+
+  "flex-layout.col#col-cat-3": {
+    "title": "Columna de la categoria 3",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-3"
+    ]
+  },
+
+  "rich-text#categoria-3": {
+    "title": "Texto de la categoria 3",
+    "props": {
+      "text": "Cuidado Facial"
+    }
+  },
+
+  "flex-layout.col#col-cat-4": {
+    "title": "Columna de la categoria 4",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-4"
+    ]
+  },
+
+  "rich-text#categoria-4": {
+    "title": "Texto de la categoria 4",
+    "props": {
+      "text": "Maquillaje"
+    }
+  },
+
+  "flex-layout.col#col-cat-5": {
+    "title": "Columna de la categoria 5",
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-5"
+    ]
+  },
+
+  "rich-text#categoria-5": {
+    "title": "Texto de la categoria 5",
+    "props": {
+      "text": "Cuidado Bebé"
+    }
+  }
+
+}

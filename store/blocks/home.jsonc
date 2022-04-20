@@ -1,0 +1,9 @@
+
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#promesas-container",
+      "flex-layout.row#categorias-container"
+    ]
+  }
+}

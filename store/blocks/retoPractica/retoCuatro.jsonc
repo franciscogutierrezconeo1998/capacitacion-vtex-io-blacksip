@@ -1,0 +1,167 @@
+{
+  "slider-layout#main-promises-mobile": {
+    "title": "Carrusel slider promises",
+    "children": [
+      "flex-layout.col#col-promise-1",
+      "flex-layout.col#col-promise-2",
+      "flex-layout.col#col-promise-3",
+      "flex-layout.col#col-promise-4",
+      "flex-layout.col#col-promise-5"
+    ],
+    "props": {
+      "centerMode": {
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  
+  "flex-layout.row#main-container": {
+    "children": [
+      "flex-layout.col#title-description",
+      "flex-layout.col#cat-1",
+      "flex-layout.col#cat-2",
+      "flex-layout.col#cat-3"
+    ],
+    "props": {
+      "title": "fila padre"
+    }
+  },
+  
+  "flex-layout.col#title-description": {
+    "children": [
+      "rich-text#title-dep",
+      "rich-text#description-dep",
+      "rich-text#link-view-more"
+    ],
+    "props": {
+      "title": "columna contenedor titulo departamento"
+    }
+  },
+  
+  "rich-text#title-dep": {
+    "props": {
+      "text": "#### Latest arrivals and trends release",
+      "blockClass": "titleCat",
+      "title": "titulo del departamento"
+    }
+  },
+  
+  "rich-text#description-dep": {
+    "props": {
+      "text": "##### New possibilities. Better access.",
+      "blockClass": "descriptionCat",
+      "title": "descripción del departamento"
+    }
+  },
+  
+  "rich-text#link-view-more": {
+    "props": {
+      "text": "[View more](/new-arrivals?target=_blank)",
+      "title": "link ver mas del departamento"
+    }
+  },
+  
+  "flex-layout.col#cat-1": {
+    "children": [
+      "rich-text#title-cat-1",
+      "rich-text#description-cat-1",
+      "image#cat-1"
+    ],
+    "props": {
+      "title": "columna contenedor titulo cat 1"
+    }
+  },
+  
+  "rich-text#title-cat-1": {
+    "props": {
+      "text": "**Shipping discount**",
+      "title": "titulo de la cat uno"
+    }
+  },
+  
+  "rich-text#description-cat-1": {
+    "props": {
+      "text": "Up to US $20 off shipping",
+      "title": "descripción de la cat uno"
+    }
+  },
+  
+  "image#cat-1": {
+    "props": {
+      "src": "https.imgur.com/u0KnAfL.jpeg",
+      "link": {
+        "url": "/categoria-1"
+      },
+      "title": "imagen de la cat uno"
+    }
+  },
+  
+  "flex-layout.col#cat-2": {
+    "children": [
+      "rich-text#title-cat-2",
+      "rich-text#description-cat-2",
+      "image#cat-2"
+    ],
+    "title": "columna contenedor titulo cat 2"
+  },
+  
+  "rich-text#title-cat-2": {
+    "props": {
+      "text": "**2022 trends release**",
+      "title": "titulo de la cat dos"
+    }
+  },
+  
+  "rich-text#description-cat-2": {
+    "props": {
+      "text": "Stay ahead of the curve",
+      "title": "descripción de la cat dos"
+    }
+  },
+  
+  "image#cat-2": {
+    "props": {
+      "src": "https.imgur.com/QJVSA3f.jpeg",
+      "link": {
+        "url": "/categoria-2"
+      },
+      "title": "imagen de la cat dos"
+    }
+  },
+  
+  "flex-layout.col#cat-3": {
+    "children": [
+      "rich-text#title-cat-3",
+      "rich-text#description-cat-3",
+      "image#cat-3"
+    ],
+    "props": {
+      "title": "columna contenedor titulo cat 3"
+    }
+  },
+  
+  "rich-text#title-cat-3": {
+    "props": {
+      "text": "**2022 trends release**",
+      "title": "titulo de la cat tres"
+    }
+  },
+  
+  "rich-text#description-cat-3": {
+    "props": {
+      "text": "Stay ahead of the curve",
+      "title": "descripción de la cat tres"
+    }
+  },
+  
+  "image#cat-3": {
+    "props": {
+      "src": "https.imgur.com/JsCrWhS.jpeg",
+      "link": {
+        "url": "/categoria-3"
+      }
+    },
+    "title": "imagen de la cat tres"
+  }
+}
