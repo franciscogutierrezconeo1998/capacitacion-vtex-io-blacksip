@@ -1,0 +1,52 @@
+{
+  "responsive-layout.mobile#imagen-main-product": {
+    "title": "Responsivo de imagen en mobile",
+    "children": [
+      "image#image-main"
+    ]
+  },
+
+  "image#image-main": {
+    "title": "Imagen principal en mobile",
+    "props": {
+      "src": "https://i.imgur.com/g4HOOrr.jpg",
+      "blockCLass": "img-main"
+    }
+  },
+
+  "responsive-layout.mobile#items-product": {
+    "title": "Responsivo de items en mobile",
+    "children": [
+      "flex-layout.row#items-info-mobile"
+    ]
+  },
+
+  "flex-layout.row#items-info-mobile": {
+    "title": "Fila principal de items en mobile",
+    "children": [
+      "flex-layout.col#item-1",
+      "flex-layout.col#item-2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#item-1": {
+    "title": "Columna de items izquierda",
+    "children": [
+      "flex-layout.row#items-info-1",
+      "flex-layout.row#items-info-3",
+      "flex-layout.row#items-info-5"
+    ]
+  },
+
+  "flex-layout.col#item-2": {
+    "title": "Columna de items derecha",
+    "children": [
+      "flex-layout.row#items-info-2",
+      "flex-layout.row#items-info-4",
+      "flex-layout.row#items-info-6"
+    ]
+  }
+}

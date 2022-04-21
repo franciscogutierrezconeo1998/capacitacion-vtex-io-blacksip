@@ -1,0 +1,106 @@
+{
+  "flex-layout.row#items-info-desktop-2": {
+    "title": "Segunda fila de items",
+    "children": [
+      "flex-layout.col#item-info-4",
+      "flex-layout.col#item-info-5",
+      "flex-layout.col#item-info-6"
+    ]
+  },
+
+  "flex-layout.col#item-info-4": {
+    "title": "Columna de la info 4",
+    "children": [
+      "flex-layout.row#items-info-4"
+    ]
+  },
+
+  "flex-layout.row#items-info-4": {
+    "title": "Fila de la info 4",
+    "children": [
+      "image#item-info-4",
+      "rich-text#item-info-4"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "image#item-info-4": {
+    "title": "Imagen de la info 4",
+    "props": {
+      "src": "https://i.imgur.com/9V8uyXo.png"
+    }
+  },
+
+  "rich-text#item-info-4": {
+    "title": "Texto de la info 4",
+    "props": {
+      "text": "4 a 6 comensales"
+    }
+  },
+
+  "flex-layout.col#item-info-5": {
+    "title": "Columna de la info 5",
+    "children": [
+      "flex-layout.row#items-info-5"
+    ]
+  },
+
+  "flex-layout.row#items-info-5": {
+    "title": "Fila de la info 5",
+    "children": [
+      "image#item-info-5",
+      "rich-text#item-info-5"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "image#item-info-5": {
+    "title": "Imagen de la info 5",
+    "props": {
+      "src": "https://i.imgur.com/xx4LO0k.png"
+    }
+  },
+
+  "rich-text#item-info-5": {
+    "title": "Texto de la info 5",
+    "props": {
+      "text": "S/1200 – S/1480"
+    }
+  },
+
+  "flex-layout.col#item-info-6": {
+    "title": "Columna de la info 6",
+    "children": [
+      "flex-layout.row#items-info-6"
+    ]
+  },
+
+  "flex-layout.row#items-info-6": {
+    "title": "Fila de la info 6",
+    "children": [
+      "image#item-info-6",
+      "rich-text#item-info-6"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "image#item-info-6": {
+    "title": "Imagen de la info 6",
+    "props": {
+      "src": "https://i.imgur.com/IhKo5Rc.png"
+    }
+  },
+
+  "rich-text#item-info-6": {
+    "title": "Texto de la info 6",
+    "props": {
+      "text": "País: Perú"
+    }
+  }
+}
