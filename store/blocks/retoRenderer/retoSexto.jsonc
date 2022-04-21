@@ -1,0 +1,42 @@
+{
+  "list-context.image-list#demo": {
+    "title": "Contenedor de imagenes",
+    "props": {
+      "blockClass": "listContextImage",
+      "images": [
+        {
+          "image": "https://i.imgur.com/3t2tV3u.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/kzF2tuC.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/M4tLgrn.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/XOYwFkE.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/3t2tV3u.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/Gz1Bfqt.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/Gz1Bfqt.jpeg"
+        }
+      ]
+    },
+    "children": [
+      "list-context-renderer#demo2"
+    ]
+  },
+
+  "list-context-renderer#demo2": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": "rendererContextImage"
+    }
+  }
+}
