@@ -33,6 +33,7 @@
   },
 
   "list-context-renderer#demo2": {
+    "title": "Lista renderizada de imagenes",
     "props": {
       "listElement": "div",
       "itemElement": "div",
