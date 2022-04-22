@@ -1,0 +1,26 @@
+{
+  "slider-layout#promesas": {
+    "title": "Carrucel de promesas",
+    "props": {
+      "itemPerpage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      }
+    },
+    "children": [
+      "flex-layout.col#col-promise-1",
+      "flex-layout.col#col-promise-2",
+      "flex-layout.col#col-promise-3",
+      "flex-layout.col#col-promise-4",
+      "flex-layout.col#col-promise-5"
+    ]
+  }
+}
