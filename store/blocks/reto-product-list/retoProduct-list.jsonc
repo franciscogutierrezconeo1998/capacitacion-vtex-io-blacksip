@@ -1,0 +1,105 @@
+{
+  "list-context.product-list#productSlider": {
+    "title": "Lista de productos",
+    "blocks": ["product-summary.shelf#curso"],
+    "children": ["slider-layout#products"],
+    "props": {
+        "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#products": {
+    "title": "Carrucel de productos",
+      "props": {
+          "itemsPerPage": {
+              "(min-width:1400px)": 6,
+              "desktop": 5,
+              "tablet": 3,
+              "phone": 1
+          },
+          "centerMode": {
+            "(min-width:1400px)": "disabled",
+            "desktop": "disabled",
+            "tablet": "disabled",
+            "phone": "to-the-left"
+          }
+      }
+  },
+
+  "product-summary.shelf#curso": {
+    "title": "Shelf de productos",
+    "children": [
+      "product-summary-image",
+      "product-summary-brand",
+      "product-summary-name",
+      "flex-layout.row#contentMainPrice",
+      "add-to-cart-button"
+    ]
+  },
+
+  "flex-layout.row#contentMainPrice": {
+    "title": "Fila prncipal de precios",
+    "children": [
+        "product-selling-price#curso",
+        "product-list-price#curso",
+        "product-price-savings#curso"
+    ],
+    "props": {
+        "blockClass": "flexRowContentMainPrice"
+    }
+},
+
+"product-list-price#curso": {
+  "title": "Lista de precios",
+  "props": {
+      "blockClass": "listPrice"
+  }
+},
+
+"product-price-savings#curso": {
+  "title": "Descuento de precios",
+  "props": {
+      "blockClass": "savingProduct",
+      "message": "{savingsPercentage}",
+      "percentageStyle": "compact",
+      "minimumPercentage": 1
+    }
+  },
+
+  "product-selling-price#curso": {
+    "title": "Precio real del precio",
+    "props": {
+        "blockClass": "bestPrice"
+    }
+},
+
+//renderer
+
+"list-context.product-list#demo": {
+  "title": "Lista de productos sin carrucel",
+  "blocks": ["product-summary.shelf#demo"],
+  "children": ["list-context-renderer#demo"],
+  "props": {
+    "blockClass": "list-context-sin-carrucel"
+  }
+},
+
+"list-context-renderer#demo": {
+  "title": "Renderizador de productos",
+  "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": "list-context-renderer-sin-carrucel"
+  }
+},
+
+"product-summary.shelf#demo": {
+  "title": "Shelf de productos sin carrucel",
+  "children": [
+    "product-summary-image",
+    "product-summary-brand",
+    "product-summary-name",
+    "flex-layout.row#contentMainPrice",
+    "add-to-cart-button"
+  ]
+}
+}

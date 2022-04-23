@@ -1,0 +1,18 @@
+
+{
+  "store.home": {
+    "blocks": [
+      "list-context.product-list#productSlider",
+      "rich-text#titulo-intermedio",
+      "list-context.product-list#demo"
+    ]
+  },
+
+  "rich-text#titulo-intermedio": {
+    "props": {
+      "text": "# Complemento del reto principal",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
