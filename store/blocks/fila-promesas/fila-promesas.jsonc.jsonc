@@ -1,6 +1,5 @@
   {
-        //Llamar a en home "flex-layout.row#promesas-container",
-        // Llamar en hombe "flex-layout.row#categorias-container"
+        //Llamar a en home "flex-layout.row#promesas-container" para ver el resultado del reto 1 del slider,
 
   "flex-layout.row#promesas-container": {
     "title": "Fila principal de las promesas",
