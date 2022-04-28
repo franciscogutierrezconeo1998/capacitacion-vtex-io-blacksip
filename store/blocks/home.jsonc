@@ -2,7 +2,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#main-carrusel-video"
+      "flex-layout.row#promesas-container"
     ]
   }
 }
