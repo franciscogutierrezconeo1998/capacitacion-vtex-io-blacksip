@@ -40,11 +40,11 @@
       }
     },
     "children": [
-      "link.product#VIDEO"
+      "link#VIDEO"
     ]
   },
 
-  "link.product#VIDEO": {
+  "link#VIDEO": {
     "props": {
       "href": "/video-prueba"
     },
