@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#reto-drawer": {
+    "title": "Fila del drawer principal",
+    "children": [
+      "drawer#main"
+    ]
+  },
+
+  "drawer#main": {
+    "title": "Drawer principal",
+    "blocks": [
+      "drawer-header#my-drawer-main",
+      "drawer-trigger#my-drawer-main"
+    ],
+    "children": [
+      "flex-layout.row#drawer-tallas"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "flex-layout.row#drawer-tallas": {
+    "title": "Fila de tallas hombre mujer",
+    "children": [
+      "flex-layout.col#drawer-tallas"
+    ]
+  },
+
+  "flex-layout.col#drawer-tallas": {
+    "title": "Columna de drawers mujer y hombre",
+    "children": [
+      "drawer#mujer",
+      "drawer#hombre"
+    ]
+  },
+
+  "drawer-header#my-drawer-main": {
+    "title": "Drawer header del drawer princiapl",
+    "children": [
+      "drawer-close-button",
+      "rich-text#drawer-tallas"
+    ],
+    "props": {
+        "blockClass": ["headerDrawer"]
+    }
+  },
+
+  "rich-text#drawer-tallas": {
+    "title": "Texto de Guia de tallas",
+    "props": {
+      "text": "Guia de tallas"
+    }
+  },
+
+  "drawer-trigger#my-drawer-main": {
+    "title": "Drawer trigger de drawer principal",
+    "children": [
+      "rich-text#drawer-tallas"
+    ]
+  }
+}

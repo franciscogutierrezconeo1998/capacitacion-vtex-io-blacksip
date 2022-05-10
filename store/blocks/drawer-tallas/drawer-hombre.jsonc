@@ -1,0 +1,48 @@
+{
+  "drawer#hombre": {
+    "title": "Drawer de hombre",
+    "blocks": [
+      "drawer-header#hombre",
+      "drawer-trigger#hombre"
+    ],
+    "children": [
+      "image#tallas"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-header#hombre": {
+    "title": "Drawer header en el drawer de hombre",
+    "children": [
+      "drawer-close-button",
+      "rich-text#drawer-hombre"
+    ],
+    "props": {
+        "blockClass": ["headerDrawerhombre"]
+    }
+  },
+
+  "rich-text#drawer-hombre": {
+    "title": "Texto de 'guia de tallas hombre'",
+    "props": {
+      "text": "Guia de tallas hombre"
+    }
+  },
+
+  "drawer-trigger#hombre": {
+    "title": "Drawer trigger de drawer hombre",
+    "children": [
+      "rich-text#drawer-hombre-text"
+    ]
+  },
+
+  "rich-text#drawer-hombre-text": {
+    "title": "Texto de disparador de drawer hombre",
+    "props": {
+      "text": "hombre"
+    }
+  }
+}

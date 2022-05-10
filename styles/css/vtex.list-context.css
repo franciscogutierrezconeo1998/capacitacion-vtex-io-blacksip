@@ -1,0 +1,12 @@
+@import url('../configs/global.css');
+
+.item--rendererContextImage {
+  padding: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .list--rendererContextImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

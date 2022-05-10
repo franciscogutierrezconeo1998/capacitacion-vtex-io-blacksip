@@ -1,0 +1,8 @@
+
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#reto-drawer"
+    ]
+  }
+}

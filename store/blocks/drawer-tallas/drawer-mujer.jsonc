@@ -1,0 +1,55 @@
+{
+  "drawer#mujer": {
+    "title": "Drawer de mujer",
+    "blocks": [
+      "drawer-header#mujer",
+      "drawer-trigger#mujer"
+    ],
+    "children": [
+      "image#tallas"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-header#mujer": {
+    "title": "Drawer header en el drawer de mujer",
+    "children": [
+      "drawer-close-button",
+      "rich-text#drawer-mujer"
+    ],
+    "props": {
+        "blockClass": ["headerDrawerMujer"]
+    }
+  },
+
+  "rich-text#drawer-mujer": {
+    "title": "Texto de 'guia de tallas mujer'",
+    "props": {
+      "text": "Guia de tallas mujer"
+    }
+  },
+
+  "drawer-trigger#mujer": {
+    "title": "Drawer trigger de drawer mujer",
+    "children": [
+      "rich-text#drawer-mujer-text"
+    ]
+  },
+
+  "rich-text#drawer-mujer-text": {
+    "title": "Texto de disparador de drawer mujer",
+    "props": {
+      "text": "Mujer"
+    }
+  },
+
+  "image#tallas": {
+    "title": "Imagen de guia de tallas",
+    "props": {
+      "src": "https://i.imgur.com/HLLiO8N.jpeg"
+    }
+  }
+}
