@@ -1,0 +1,9 @@
+.paragraph--titleProduct {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--flexColDrawerDep) .paragraph {
+  margin: 0;
+}

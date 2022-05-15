@@ -1,0 +1,21 @@
+.flexRow--flexRowTitleDrawerDep {
+  width: 100%;
+}
+
+.flexRowContent--flexRowTitleDrawerDep {
+  display: flex;
+}
+
+.flexRowContent--flexRowTitleDrawerDep .stretchChildrenWidth    {
+  justify-content: initial;
+  width: auto !important;
+}
+
+.flexRow--flexRowFooterMenu {
+  padding: 0 2rem;
+  padding-top: 35%;
+}
+
+.flexCol--flexColSubmenuDep {
+  align-items: center;
+}

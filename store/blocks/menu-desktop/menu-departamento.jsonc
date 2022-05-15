@@ -1,0 +1,113 @@
+{
+  "menu-item#dep": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 1",
+          "text": "Departamento 1"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  },
+
+  "menu-item#dep2": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 2",
+          "text": "Departamento 2"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  },
+
+  "menu-item#dep3": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 3",
+          "text": "Departamento 3"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  },
+
+  "menu-item#dep4": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 4",
+          "text": "Departamento 4"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  },
+
+  "menu-item#dep5": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 5",
+          "text": "Departamento 5"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  },
+
+  "menu-item#dep6": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 6",
+          "text": "Departamento 6"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  },
+
+  "menu-item#dep7": {
+    "title": "Menu item departamentos",
+    "props": {
+        "blockClass": ["category-title-menu"],
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Departamento 7",
+          "text": "Departamento 7"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-dep"]
+  }
+}

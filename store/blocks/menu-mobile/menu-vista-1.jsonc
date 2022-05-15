@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#reto-drawer": {
+    "title": "Fila del drawer principal",
+    "children": [
+      "drawer#main"
+    ]
+  },
+
+  "drawer#main": {
+    "title": "Drawer principal",
+    "children": [
+      "flex-layout.col#drawer-main-dep"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "flex-layout.col#drawer-main-dep": {
+    "title": "Columna de drawer principal departamento",
+    "children": [
+      "flex-layout.row#drawer-dep",
+      "flex-layout.row#footer-menu"
+    ]
+  },
+
+  "flex-layout.row#footer-menu": {
+    "title": "Fila del footer del menu",
+    "children": [
+      "rich-text#my-account",
+      "rich-text#my-wishlist"
+    ],
+    "props": {
+      "colGap": 4,
+      "blockClass": "flexRowFooterMenu",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "rich-text#my-account": {
+    "title": "Texto y link de mi cuenta",
+    "props": {
+      "text": "[Mi cuenta](/account)"
+    }
+  },
+
+  "rich-text#my-wishlist": {
+    "title": "Texto y link de mi cuenta",
+    "props": {
+      "text": "[Mis favoritos](/wishlist)"
+    }
+  },
+
+  "flex-layout.row#drawer-dep": {
+    "title": "Fila de departamentos",
+    "children": [
+      "flex-layout.col#drawer-dep"
+    ]
+  },
+
+  "flex-layout.col#drawer-dep": {
+    "title": "Columna de drawers de departamentos",
+    "children": [
+      "drawer#dep1",
+      "drawer#dep2",
+      "drawer#dep3",
+      "drawer#dep4",
+      "drawer#dep5",
+      "drawer#dep6",
+      "drawer#dep7"
+    ],
+    "props": {
+      "blockClass": "flexColDrawerDep"
+    }
+  }
+}

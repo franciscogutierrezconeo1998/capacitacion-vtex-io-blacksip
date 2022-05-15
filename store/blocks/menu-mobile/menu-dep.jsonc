@@ -1,0 +1,204 @@
+{
+  "drawer#dep1": {
+    "title": "Drawer de departamento 1",
+    "blocks": [
+      "drawer-trigger#dep1"
+    ],
+    "children": [
+      "flex-layout.row#flex-main-view-2"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep1": {
+    "title": "Trigger del departamento 1",
+    "children": [
+      "rich-text#trigger-dep1"
+    ]
+  },
+
+  "flex-layout.row#flex-main-view-2": {
+    "title": "Fila principal acordeon y drawer",
+    "children": [
+      "flex-layout.col#flex-main-view-2"
+    ]
+  },
+
+  "rich-text#trigger-dep1": {
+    "title": "Texto titulo dep 1",
+    "props": {
+      "text": "Departamento 1"
+    }
+  },
+
+  "drawer#dep2": {
+    "title": "Drawer de departamento 2",
+    "blocks": [
+      "drawer-trigger#dep2"
+    ],
+    "children": [
+      "flex-layout.col#flex-main-view-2-dep-2"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep2": {
+    "title": "Trigger del departamento 2",
+    "children": [
+      "rich-text#trigger-dep2"
+    ]
+  },
+
+  "rich-text#trigger-dep2": {
+    "title": "Texto titulo dep 2",
+    "props": {
+      "text": "Departamento 2"
+    }
+  },
+
+  "drawer#dep3": {
+    "title": "Drawer de departamento 3",
+    "blocks": [
+      "drawer-trigger#dep3"
+    ],
+    "children": [
+      "flex-layout.col#flex-main-view-2-dep-3"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep3": {
+    "title": "Trigger del departamento 3",
+    "children": [
+      "rich-text#trigger-dep3"
+    ]
+  },
+
+  "rich-text#trigger-dep3": {
+    "title": "Texto titulo dep 3",
+    "props": {
+      "text": "Departamento 3"
+    }
+  },
+
+  "drawer#dep4": {
+    "title": "Drawer de departamento 4",
+    "blocks": [
+      "drawer-trigger#dep4"
+    ],
+    "children": [
+      "flex-layout.col#flex-main-view-2-dep-4"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep4": {
+    "title": "Trigger del departamento 4",
+    "children": [
+      "rich-text#trigger-dep4"
+    ]
+  },
+
+  "rich-text#trigger-dep4": {
+    "title": "Texto titulo dep 4",
+    "props": {
+      "text": "Departamento 4"
+    }
+  },
+
+  "drawer#dep5": {
+    "title": "Drawer de departamento 5",
+    "blocks": [
+      "drawer-trigger#dep5"
+    ],
+    "children": [
+      "flex-layout.col#flex-main-view-2-dep-5"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep5": {
+    "title": "Trigger del departamento 5",
+    "children": [
+      "rich-text#trigger-dep5"
+    ]
+  },
+
+  "rich-text#trigger-dep5": {
+    "title": "Texto titulo dep 5",
+    "props": {
+      "text": "Departamento 5"
+    }
+  },
+
+  "drawer#dep6": {
+    "title": "Drawer de departamento 6",
+    "blocks": [
+      "drawer-trigger#dep6"
+    ],
+    "children": [
+      "flex-layout.col#flex-main-view-2-dep-6"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep6": {
+    "title": "Trigger del departamento 6",
+    "children": [
+      "rich-text#trigger-dep6"
+    ]
+  },
+
+  "rich-text#trigger-dep6": {
+    "title": "Texto titulo dep 6",
+    "props": {
+      "text": "Departamento 6"
+    }
+  },
+
+  "drawer#dep7": {
+    "title": "Drawer de departamento 7",
+    "blocks": [
+      "drawer-trigger#dep7"
+    ],
+    "children": [
+      "flex-layout.col#flex-main-view-2-dep-7"
+    ],
+    "props": {
+        "slideDirection": "vertical",
+        "isFullWidth": true
+    }
+  },
+
+  "drawer-trigger#dep7": {
+    "title": "Trigger del departamento 7",
+    "children": [
+      "rich-text#trigger-dep7"
+    ]
+  },
+
+  "rich-text#trigger-dep7": {
+    "title": "Texto titulo dep 7",
+    "props": {
+      "text": "Departamento 7"
+    }
+  }
+}

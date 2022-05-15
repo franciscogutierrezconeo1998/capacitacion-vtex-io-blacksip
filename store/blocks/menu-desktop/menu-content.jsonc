@@ -1,0 +1,92 @@
+{
+  "flex-layout.row#desktop-menu": {
+    "title": "Fila principal del menu",
+    "children": [
+      "menu-item#dep",
+      "menu-item#dep2",
+      "menu-item#dep3",
+      "menu-item#dep4",
+      "menu-item#dep5",
+      "menu-item#dep6",
+      "menu-item#dep7"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "vtex.menu@2.x:submenu#submenu-dep": {
+    "title": "Contenedor submenu departamento",
+    "props": {
+      "blockClass": ["content-subtitle-menu"],
+      "orientation": "vertical",
+      "width": "100%",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep",
+      "flex-layout.col#submenuDep"
+    ]
+  },
+
+  "flex-layout.col#submenuDep": {
+    "title": "Columna de submenu departamento",
+    "children": [
+      "rich-text#title-categoria",
+      "vtex.menu@2.x:menu#submenuDep-2"
+    ],
+    "props": {
+      "blockClass": "flexColSubmenuDep",
+      "width": "100%"
+    }
+  },
+
+  "rich-text#title-categoria": {
+    "title": "Titulo de categorias submenu",
+    "props": {
+      "text": "**Categoría**"
+    }
+  },
+
+  "vtex.menu@2.x:menu#submenuDep-2": {
+    "title": "Primer contenedor submenu departamento",
+    "props": {
+      "blockClass": ["category-subtitle-menu", "col-subtitle-menu"],
+      "orientation": "vertical",
+      "width": "100%",
+      "fullWidth": true,
+      "items": [
+          {
+            "id": "menu-item-dep",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "text": "Submenu"
+            }
+          },
+          {
+            "id": "menu-item-dep",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "text": "Submenu"
+            }
+          }
+      ]
+    }
+  }
+}

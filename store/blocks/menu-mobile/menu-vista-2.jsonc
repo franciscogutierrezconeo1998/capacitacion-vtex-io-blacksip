@@ -1,0 +1,197 @@
+{
+  "flex-layout.col#flex-main-view-2": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep1"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  },
+
+  "flex-layout.col#flex-main-view-2-dep-2": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep-2",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep-2": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep2"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  },
+
+  "flex-layout.col#flex-main-view-2-dep-3": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep-3",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep-3": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep3"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  },
+
+  "flex-layout.col#flex-main-view-2-dep-4": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep-4",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep-4": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep4"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  },
+
+  "flex-layout.col#flex-main-view-2-dep-5": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep-5",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep-5": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep5"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  },
+
+  "flex-layout.col#flex-main-view-2-dep-6": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep-6",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep-6": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep6"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  },
+
+  "flex-layout.col#flex-main-view-2-dep-7": {
+    "title": "Columna principal acordeon y drawer",
+    "children": [
+      "flex-layout.row#title-dep-7",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat",
+      "flex-layout.row#accordeon-cat"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#title-dep-7": {
+    "title": "Fila del titulo y el boton cerrar",
+    "children": [
+      "drawer-close-button",
+      "rich-text#trigger-dep7"
+    ],
+    "props": {
+      "blockClass": "flexRowTitleDrawerDep"
+    }
+  }
+}
