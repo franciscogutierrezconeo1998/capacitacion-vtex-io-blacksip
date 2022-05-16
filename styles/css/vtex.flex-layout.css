@@ -19,3 +19,18 @@
 .flexCol--flexColSubmenuDep {
   align-items: center;
 }
+
+.flexRowContent--flexRowFooterMenu :local(a) {
+  text-decoration: none;
+  color: #fff;
+}
+
+.flexRowContent--flexRowFooterMenu :global(.vtex-rich-text-0-x-container) {
+  justify-content: center;
+  border-right: 1px solid #fff;
+}
+
+.flexRowContent--flexRowFooterMenu {
+  background: #000;
+  border-radius: 50px;
+}
