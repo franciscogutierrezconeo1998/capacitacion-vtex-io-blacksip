@@ -2,8 +2,12 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#menu",
-      "responsive-layout.mobile#menu"
+    ]
+  },
+
+  "flex-layout.row#drawer-new": {
+    "children": [
+      "drawer#main"
     ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué producto buscas?",
+      "displayMode": "search-button",
+      "maxWidth": 500
+    }
+  }
+}

@@ -4,5 +4,90 @@
     },
     "header.full": {
         "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+
+    "header-layout.desktop": {
+      "title": "Header layout desktop",
+      "children": ["sticky-layout#desktop"]
+    },
+
+    "sticky-layout#desktop": {
+      "title": "Sticky header desktop",
+      "props": {
+          "blockClass": "sticky-header"
+      },
+      "children": [
+          "header-row#desktop",
+          "flex-layout.row#desktop-menu"
+      ]
+  },
+
+  "header-row#desktop": {
+    "title": "Fila principal del header",
+    "children": [
+      "logo",
+      "search-bar",
+      "login"
+    ]
+  },
+
+  "logo": {
+    "props": {
+        "title": "Logo",
+        "href": "/",
+        "url": "assets/logos/Blacksip.png",
+        "width": "123",
+        "blockClass": "logo-main"
     }
+  },
+
+  "header-layout.mobile": {
+    "title": "Header layout para mobile",
+    "children": [
+      "responsive-layout.tablet#header-tablet",
+      "responsive-layout.phone#header-phone"
+    ]
+  },
+
+  "responsive-layout.tablet#header-tablet": {
+    "title": "Responsive header tablet",
+    "children": [
+      "header-row#1-main",
+      "header-row#1-search-bar"
+    ]
+  },
+
+  "responsive-layout.phone#header-phone": {
+    "title": "Responsive header tablet",
+    "children": [
+      "header-row#one",
+      "header-row#1-search-bar"
+    ]
+  },
+
+  "header-row#1-main": {
+    "title": "primera fila del header tablet",
+    "children": [
+      "flex-layout.row#drawer-new",
+      "header-spacer",
+      "logo",
+      "header-spacer"
+    ]
+  },
+
+  "header-row#one": {
+    "title": "primera fila del header phone",
+    "children": [
+      "flex-layout.row#drawer-new",
+      "logo",
+      "header-spacer"
+    ]
+  },
+
+  "header-row#1-search-bar": {
+    "title": "Fila de header search bar",
+    "children": [
+      "search-bar"
+    ]
+  }
 }

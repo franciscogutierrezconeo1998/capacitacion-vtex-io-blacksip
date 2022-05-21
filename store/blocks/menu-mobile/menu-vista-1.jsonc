@@ -1,11 +1,4 @@
 {
-  "flex-layout.row#reto-drawer": {
-    "title": "Fila del drawer principal",
-    "children": [
-      "drawer#main"
-    ]
-  },
-
   "drawer#main": {
     "title": "Drawer principal",
     "children": [

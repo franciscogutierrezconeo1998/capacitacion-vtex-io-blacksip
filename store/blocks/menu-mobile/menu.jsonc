@@ -1,8 +1,0 @@
-{
-  "responsive-layout.mobile#menu": {
-    "title": "Responsive layout disposivos mobiles",
-    "children": [
-      "flex-layout.row#reto-drawer"
-    ]
-  }
-}
