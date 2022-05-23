@@ -25,8 +25,11 @@
   "header-row#desktop": {
     "title": "Fila principal del header",
     "children": [
+      "flex-layout.row#drawer-new",
       "logo",
+      "header-spacer",
       "search-bar",
+      "header-spacer",
       "login"
     ]
   },
@@ -71,7 +74,8 @@
       "flex-layout.row#drawer-new",
       "header-spacer",
       "logo",
-      "header-spacer"
+      "header-spacer",
+      "login#tablet"
     ]
   },
 

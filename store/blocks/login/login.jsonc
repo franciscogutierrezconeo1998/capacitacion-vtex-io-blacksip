@@ -1,0 +1,61 @@
+{
+  "login": {
+    "props": {
+      "hideIconLabel": false,
+      "showIconProfile": true,
+      "accessCodeTitle": "Recibir código",
+      "iconLabel": "Mi cuenta",
+      "emailAndPasswordTitle": "Entra",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "emailPlaceholder": "ejemplo@mail.com",
+      "termsAndConditions": "Al registrarte estas aceptando nuestros los [**Términos y Condiciones**](/terminos-y-condiciones)",
+      "accountOptionLinks": [
+        {
+            "label": "Mi perfil",
+            "path": "/account#/profile",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis pedidos",
+            "path": "/account#/orders",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis direcciones",
+            "path": "/account#/addresses",
+            "cssClass": "profile-link"
+        }
+    ]
+    }
+  },
+
+  "login#tablet": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "accessCodeTitle": "Recibir código",
+      "iconLabel": "Mi cuenta",
+      "emailAndPasswordTitle": "Entra",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "emailPlaceholder": "ejemplo@mail.com",
+      "termsAndConditions": "Al registrarte estas aceptando nuestros los [**Términos y Condiciones**](/terminos-y-condiciones)",
+      "accountOptionLinks": [
+        {
+            "label": "Mi perfil",
+            "path": "/account#/profile",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis pedidos",
+            "path": "/account#/orders",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis direcciones",
+            "path": "/account#/addresses",
+            "cssClass": "profile-link"
+        }
+    ]
+    }
+  }
+}

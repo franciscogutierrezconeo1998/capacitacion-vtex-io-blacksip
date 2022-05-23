@@ -18,6 +18,8 @@
         "props": {
             "isInitialScreenOptionOnly": false,
             "defaultOption": 1,
+            "optionsTitle": "Ingresa a tu cuenta",
+            "termsAndConditions": "Al registrarte estas aceptando nuestros los [**Términos y Condiciones**](/terminos-y-condiciones)",
             "showPasswordVerificationIntoTooltip": true
         }
     },

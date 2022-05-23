@@ -11,7 +11,8 @@
       "menu-item#dep7"
     ],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "flexRowNotSticky"
     }
   },
 
