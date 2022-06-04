@@ -11,17 +11,16 @@
     "title": "Carrucel de productos",
       "props": {
           "itemsPerPage": {
-              "(min-width:1400px)": 6,
               "desktop": 5,
               "tablet": 3,
               "phone": 1
           },
           "centerMode": {
-            "(min-width:1400px)": "disabled",
             "desktop": "disabled",
             "tablet": "disabled",
             "phone": "to-the-left"
-          }
+          },
+          "blockClass": "slider-descuentos-temporada"
       }
   },
 
@@ -33,15 +32,17 @@
       "product-summary-name",
       "flex-layout.row#contentMainPrice",
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "product-summary-reto"
+    }
   },
 
   "flex-layout.row#contentMainPrice": {
     "title": "Fila prncipal de precios",
     "children": [
-        "product-selling-price#curso",
-        "product-list-price#curso",
-        "product-price-savings#curso"
+      "product-list-price#curso",
+        "product-selling-price#curso"
     ],
     "props": {
         "blockClass": "flexRowContentMainPrice"
@@ -70,36 +71,11 @@
     "props": {
         "blockClass": "bestPrice"
     }
-},
+  },
 
-//renderer
-
-"list-context.product-list#demo": {
-  "title": "Lista de productos sin carrucel",
-  "blocks": ["product-summary.shelf#demo"],
-  "children": ["list-context-renderer#demo"],
-  "props": {
-    "blockClass": "list-context-sin-carrucel"
+  "product-summary-image": {
+    "props": {
+      "aspectRatio": "1:1"
+    }
   }
-},
-
-"list-context-renderer#demo": {
-  "title": "Renderizador de productos",
-  "props": {
-      "listElement": "div",
-      "itemElement": "div",
-      "blockClass": "list-context-renderer-sin-carrucel"
-  }
-},
-
-"product-summary.shelf#demo": {
-  "title": "Shelf de productos sin carrucel",
-  "children": [
-    "product-summary-image",
-    "product-summary-brand",
-    "product-summary-name",
-    "flex-layout.row#contentMainPrice",
-    "add-to-cart-button"
-  ]
-}
 }

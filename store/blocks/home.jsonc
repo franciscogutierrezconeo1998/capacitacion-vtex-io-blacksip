@@ -2,17 +2,12 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.product-list#productSlider",
-      "rich-text#titulo-intermedio",
-      "list-context.product-list#demo"
+      //"rich-text#title-list-context",
+      "list-context.product-list#productSlider"
     ]
   },
 
-  "rich-text#titulo-intermedio": {
-    "props": {
-      "text": "# Complemento del reto principal",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
+  "rich-text#title-list-context": {
+    "title": "titulo descuento list context"
   }
 }

@@ -1,0 +1,9 @@
+.buttonText {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 27.3px;
+  letter-spacing: 0.025em;
+  color: #2E3192;
+}

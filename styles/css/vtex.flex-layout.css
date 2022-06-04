@@ -1,0 +1,9 @@
+.flexRowContent--flexRowContentMainPrice {
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .flexRowContent--flexRowContentMainPrice {
+    flex-direction: column;
+  }
+}
