@@ -1,0 +1,29 @@
+.trigger {
+  background: transparent;
+  border: none;
+}
+
+.trigger--tiggerDisclosure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.content {
+  padding: 0 1rem;
+}
+
+.content :global(.vtex-rich-text-0-x-link--textDisclosure) {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 16px;
+  color: #FFF;
+}
+
+@media (min-width: 40em) {
+  .content {
+    padding: 0 2rem;
+  }
+}

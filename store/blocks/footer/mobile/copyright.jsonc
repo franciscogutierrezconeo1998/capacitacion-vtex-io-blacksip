@@ -1,0 +1,101 @@
+{
+  "flex-layout.row#footer-copyright": {
+    "title": "Fila principal copyright",
+    "props": {
+      "blockClass": "flexRowCopyRight",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#footer-copyright"
+    ]
+  },
+
+  "flex-layout.col#footer-copyright": {
+    "props": {
+      "blockClass": "flexColCopyRight"
+    },
+    "children": [
+      "flex-layout.row#footer-copyright-1",
+      "flex-layout.row#footer-copyright-2"
+    ]
+  },
+
+  "flex-layout.row#footer-copyright-1": {
+    "title": "Fila principal texto copy",
+    "props": {
+      "blockClass": "flexRowTextCopy"
+    },
+    "children": [
+      "flex-layout.col#footer-copyright-1"
+    ]
+  },
+
+  "flex-layout.col#footer-copyright-1": {
+    "props": {
+      "blockClass": "flexColCopyRight1"
+    },
+    "children": [
+      "responsive-layout.desktop#text-copy",
+      "responsive-layout.mobile#text-copy"
+    ]
+  },
+
+  "responsive-layout.desktop#text-copy": {
+    "children": [
+      "rich-text#text-copyright-desktop"
+    ]
+  },
+
+  "responsive-layout.mobile#text-copy": {
+    "children": [
+      "rich-text#text-copyright"
+    ]
+  },
+
+  "rich-text#text-copyright-desktop": {
+    "title": "Texto copyright desktop",
+    "props": {
+      "blockClass": "textCopyRight",
+      "text": "© Todos los derechos reservados | Empowered By"
+    }
+  },
+
+  "rich-text#text-copyright": {
+    "title": "Texto copyright",
+    "props": {
+      "blockClass": "textCopyRight",
+      "text": "© Todos los derechos reservados Empowered By"
+    }
+  },
+
+  "flex-layout.row#footer-copyright-2": {
+    "title": "Fila principal imagenes copy",
+    "props": {
+      "blockClass": "flexRowTextCopy2",
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#copy-1",
+      "image#copy-2"
+    ]
+  },
+
+  "image#copy-1": {
+    "title": "Imagen blacksip",
+    "props": {
+      "src": "assets/icons/Blacksip.png",
+      "blockClass": "footer-image-copy"
+    }
+  },
+  
+  "image#copy-2": {
+    "title": "Imagen vtex",
+    "props": {
+      "src": "assets/icons/Vtex.png",
+      "blockClass": "footer-image-copy"
+    }
+  }
+}

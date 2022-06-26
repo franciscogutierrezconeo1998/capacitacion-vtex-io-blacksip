@@ -1,0 +1,37 @@
+{
+  "disclosure-layout#help": {
+    "title": "Disclosure layout principal link ayuda",
+    "children": [
+      "disclosure-trigger#help", 
+      "disclosure-content#help"
+    ],
+    "props": {
+        "blockClass": ["disclosureLayoutMainHelp", "disclosureLayoutHelp"]
+    }
+  },
+
+  "disclosure-trigger#help": {
+    "title": "Disclosure trigger titulo",
+    "children": [
+      "rich-text#title-help",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "tiggerDisclosure"
+    }
+  },
+
+  "rich-text#title-help": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass": ["help-accordion-title", "help-accordion-title", "accordion-title"]
+    }
+  },
+
+  "disclosure-content#help": {
+    "title": "Disclosure contenido",
+    "children": [
+      "menu#footer-help"
+    ]
+  }
+}

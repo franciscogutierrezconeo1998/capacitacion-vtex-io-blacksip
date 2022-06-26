@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#footer-metodos-de-pago": {
+    "title": "Fila principal metodos de pago",
+    "children": [
+      "flex-layout.col#footer-metodos-de-pago"
+    ],
+    "props": {
+      "blockClass": "flexRowMetodosDePago"
+    }
+  },
+
+  "flex-layout.col#footer-metodos-de-pago": {
+    "children": [
+      "rich-text#title-metodos-pago",
+      "flex-layout.row#image-metodos-de-pago"
+    ]
+  },
+
+  "rich-text#title-metodos-pago": {
+    "title": "Titulo de metodos de pago",
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": ["accordion-title"]
+    }
+  },
+
+  "flex-layout.row#image-metodos-de-pago": {
+    "title": "Fila de imagenes de metodos de pago",
+    "props": {
+      "blockClass": "flexRowImageMetodosDePago",
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#footer-mastercard",
+      "image#footer-visa",
+      "image#footer-american"
+    ]
+  },
+
+  "image#footer-mastercard": {
+    "title": "Imagen master card metodo de pago",
+    "props": {
+      "src": "assets/icons/Mastercard.png",
+      "blockClass": "footer-image-metodo-pago"
+    }
+  },
+
+  "image#footer-visa": {
+    "title": "Imagen visa metodo de pago",
+    "props": {
+      "src": "assets/icons/Visa.png",
+      "blockClass": "footer-image-metodo-pago"
+    }
+  },
+
+  "image#footer-american": {
+    "title": "Imagen american express metodo de pago",
+    "props": {
+      "src": "assets/icons/American-express.png",
+      "blockClass": "footer-image-metodo-pago"
+    }
+  }
+}

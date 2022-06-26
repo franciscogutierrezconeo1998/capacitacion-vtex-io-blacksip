@@ -1,0 +1,31 @@
+.imageElement--footer-image {
+  max-width: 21px;
+  max-height: 21px;
+}
+
+.imageElement--image-icon-disclosure {
+  max-width: 14px;
+  height: 8px;
+}
+
+.imageElement--footer-image-metodo-pago {
+  max-width: initial;
+  max-height: 30px;
+}
+
+.imageElement--footer-image-copy {
+  max-width: initial;
+  max-height: 18px;
+}
+
+@media (min-width: 40em) {
+  .imageElement--footer-image-copy {
+    padding-right: 0.5rem;
+  }
+}
+
+@media(min-width: 64em) {
+  .imageElementLink--footer-image {
+    padding-left: 2rem;
+  }
+}

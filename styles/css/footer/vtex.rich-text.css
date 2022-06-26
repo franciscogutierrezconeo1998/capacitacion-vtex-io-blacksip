@@ -1,0 +1,27 @@
+.wrapper--accordion-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.paragraph--textDisclosure {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+
+.container--textCopyRight {
+  justify-content: center;
+}
+
+.paragraph--textCopyRight {
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container--title-social-network {
+  justify-content: center;
+  padding-top: 1rem;
+}

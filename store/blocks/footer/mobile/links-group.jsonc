@@ -1,0 +1,13 @@
+{
+  "disclosure-layout-group#link-interes": {
+    "title": "Disclosure principal link interes",
+    "props": {
+      "blockClass": "acordeonFooterPhone"
+    },
+    "children": [
+      "disclosure-layout#us",
+      "disclosure-layout#help",
+      "disclosure-layout#contact"
+    ]
+  }
+}

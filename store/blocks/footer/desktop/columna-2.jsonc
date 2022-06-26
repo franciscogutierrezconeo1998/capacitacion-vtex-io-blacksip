@@ -1,0 +1,98 @@
+{
+  "flex-layout.col#footer-main-desktop-2": {
+    "props": {
+      "blockClass": ["flexColMainDesktop-2", "flexColMainDesktopContent"]
+    },
+    "children": [
+      "rich-text#title-help",
+      "menu#footer-help"
+    ]
+  },
+
+  "menu#footer-help": {
+    "props": {
+      "blockClass": "menuDrawer"
+    },
+    "children": [
+      "flex-layout.col#footer-help"
+    ]
+  },
+
+  "flex-layout.col#footer-help": {
+    "props": {
+      "blockClass": "flexColFooterHelp"
+    },
+    "children": [
+      "menu-item#footer-preguntas-frecuentes",
+      "menu-item#footer-politicas-de-pago",
+      "menu-item#politicas-de-envio",
+      "menu-item#condiciones-de-cambio",
+      "menu-item#politicas-de-garantias"
+    ]
+  },
+
+  "menu-item#footer-preguntas-frecuentes": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "menu-item#footer-politicas-de-pago": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-pago",
+        "text": "Políticas de pago"
+      }
+    }
+  },
+
+  "menu-item#politicas-de-envio": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-envio",
+        "text": "Políticas de envío"
+      }
+    }
+  },
+
+  "menu-item#condiciones-de-cambio": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/condiciones-de-cambio",
+        "text": "Condiciones de Cambio"
+      }
+    }
+  },
+
+  "menu-item#politicas-de-garantias": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-garantias",
+        "text": "Políticas de Garantías"
+      }
+    }
+  }
+}

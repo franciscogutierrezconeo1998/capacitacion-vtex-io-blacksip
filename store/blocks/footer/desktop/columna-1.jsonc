@@ -1,0 +1,70 @@
+{
+  "flex-layout.col#footer-main-desktop-1": {
+    "props": {
+      "blockClass": ["flexColMainDesktop-1", "flexColMainDesktopContent"]
+    },
+    "children": [
+      "rich-text#title-us",
+      "menu#footer-us"
+    ]
+  },
+  
+  "menu#footer-us": {
+    "props": {
+        "blockClass": "menuDrawer"
+    },
+    "children": [
+      "flex-layout.col#footer-us"
+    ]
+  },
+
+  "flex-layout.col#footer-us": {
+    "props": {
+      "blockClass": "footer-us-col-menu"
+    },
+    "children": [
+      "menu-item#footer-us",
+      "menu-item#footer-aviso-priv",
+      "menu-item#terminos-y-condiciones"
+    ]
+  },
+
+  "menu-item#footer-us": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "text": "Quiénes Somos"
+      }
+    }
+  },
+
+  "menu-item#footer-aviso-priv": {
+    "props": {
+        "blockClass": ["title-menu","footer-all"],
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/aviso-de-privacidad",
+          "text": "Aviso de Privacidad"
+        }
+    }
+  },
+
+  "menu-item#terminos-y-condiciones": {
+    "props": {
+        "blockClass": ["title-menu","footer-all"],
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-y-condiciones",
+          "text": "Términos y Condiciones"
+        }
+    }
+  }
+}

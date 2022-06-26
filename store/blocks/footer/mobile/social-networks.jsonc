@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#footer-image-social": {
+    "title": "Fila principal de redes sociales",
+    "children": [
+      "image#footer-facebook",
+      "image#footer-insta",
+      "image#footer-whatsapp"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "flexRowSocialNetworks",
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "image#footer-facebook": {
+    "title": "Imagen facebook social network",
+    "props": {
+        "src": "assets/icons/icon-facebook.png",
+        "blockClass": "footer-image",
+        "link": {
+            "url": "/",
+            "newTab": "true"
+        }
+    }
+  },
+
+  "image#footer-insta": {
+    "title": "Imagen instagram social network",
+    "props": {
+        "src": "assets/icons/icon-insta.png",
+        "blockClass": "footer-image",
+        "link": {
+            "url": "/",
+            "newTab": "true"
+        }
+    }
+  },
+
+  "image#footer-whatsapp": {
+    "title": "Imagen whatsapp social network",
+    "props": {
+        "src": "assets/icons/icon-whatsapp.png",
+        "blockClass": "footer-image",
+        "link": {
+            "url": "/",
+            "newTab": "true"
+        }
+    }
+  }
+}

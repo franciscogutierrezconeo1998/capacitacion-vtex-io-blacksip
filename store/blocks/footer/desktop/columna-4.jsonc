@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#footer-main-desktop-4": {
+    "props": {
+      "blockClass": ["flexColMainDesktop-4", "flexColMainDesktopContent"]
+    },
+    "children": [
+      "rich-text#title-metodos-pago",
+      "flex-layout.row#image-metodos-de-pago"
+    ]
+  }
+}

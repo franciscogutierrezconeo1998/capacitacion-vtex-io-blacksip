@@ -1,0 +1,38 @@
+{
+  "disclosure-layout#contact": {
+    "title": "Disclosure layout principal link nosotros",
+    "children": [
+      "disclosure-trigger#contact", 
+      "disclosure-content#contact"
+    ],
+    "props": {
+        "blockClass": ["disclosureLayoutMainContact", "disclosureLayoutContact"]
+    }
+  },
+
+  "disclosure-trigger#contact": {
+    "title": "Disclosure trigger titulo",
+    "children": [
+      "rich-text#title-contact",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "tiggerDisclosure"
+    }
+  },
+
+  "rich-text#title-contact": {
+    "title": "Texto titulo trigger contact footer",
+    "props": {
+      "text": "Contáctanos",
+      "blockClass": ["contact-accordion-title", "contact-accordion-title", "accordion-title"]
+    }
+  },
+
+  "disclosure-content#contact": {
+    "title": "Disclosure contenido",
+    "children": [
+      "menu#footer-contact"
+    ]
+  }
+}

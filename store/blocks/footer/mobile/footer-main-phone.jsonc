@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#footer-mobile": {
+    "title": "Fila principal footer phone",
+    "children": [
+      "flex-layout.col#footer-phone"
+    ],
+    "props": {
+      "blockClass": "flexRowFooter"
+    }
+  },
+
+  "flex-layout.col#footer-phone": {
+    "children": [
+      "responsive-layout.tablet#title-social-network",
+      "flex-layout.row#footer-image-social",
+      "disclosure-layout-group#link-interes",
+      "flex-layout.row#footer-metodos-de-pago",
+      "flex-layout.row#footer-copyright"
+    ],
+    "props": {
+      "blockClass": "flexColFooter"
+    }
+  },
+
+  "responsive-layout.tablet#title-social-network": {
+    "children": [
+      "rich-text#title-social-network"
+    ]
+  },
+
+  "rich-text#title-social-network": {
+    "title": "Titulo de Siguenos en",
+    "props": {
+      "text": "Siguenos en",
+      "blockClass": ["accordion-title", "title-social-network"]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "disclosure-layout#us": {
+    "title": "Disclosure layout principal link nosotros",
+    "children": [
+      "disclosure-trigger#us", 
+      "disclosure-content#us"
+    ],
+    "props": {
+        "blockClass": ["disclosureLayoutMainUs", "disclosureLayoutUs"]
+    }
+  },
+
+  "disclosure-trigger#us": {
+    "title": "Disclosure trigger titulo",
+    "children": [
+      "rich-text#title-us",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "tiggerDisclosure"
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "image#down",
+      "Hide": "image#up"
+    }
+  },
+
+  "image#down": {
+    "title": "Imagen icono down disclosure",
+    "props": {
+      "blockClass": "image-icon-disclosure",
+      "src": "assets/icons/down.png"
+    }
+  },
+
+  "image#up": {
+    "title": "Imagen icono up disclosure",
+    "props": {
+      "blockClass": "image-icon-disclosure",
+      "src": "assets/icons/up.png"
+    }
+  },
+
+  "rich-text#title-us": {
+    "title": "Texto titulo trigger us footer",
+    "props": {
+      "text": "Nosotros",
+      "blockClass": ["us-accordion-title", "us-accordion-title", "accordion-title"]
+    }
+  },
+
+  "disclosure-content#us": {
+    "title": "Disclosure contenido",
+    "children": [
+      "menu#footer-us"
+    ]
+  }
+}

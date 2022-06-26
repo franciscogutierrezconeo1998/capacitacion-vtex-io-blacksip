@@ -1,0 +1,98 @@
+{
+  "flex-layout.col#footer-main-desktop-3": {
+    "props": {
+      "blockClass": ["flexColMainDesktop-3", "flexColMainDesktopContent"]
+    },
+    "children": [
+      "rich-text#title-contact",
+      "menu#footer-contact"
+    ]
+  },
+
+  "menu#footer-contact": {
+    "props": {
+      "blockClass": "menuDrawer"
+    },
+    "children": [
+      "flex-layout.col#footer-contact"
+    ]
+  },
+
+  "flex-layout.col#footer-contact": {
+    "props": {
+      "blockClass": "flexColFooterContact"
+    },
+    "children": [
+      "menu-item#footer-contact-col",
+      "menu-item#footer-contact-mex",
+      "menu-item#footer-contact-peru",
+      "menu-item#footer-contact-chile",
+      "menu-item#footer-contact-ecuador"
+    ]
+  },
+
+  "menu-item#footer-contact-col": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+573156164959",
+        "text": "Colombia: (+57) 315 616 4959"
+      }
+    }
+  },
+
+  "menu-item#footer-contact-mex": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+525518643468",
+        "text": "México: (+52) 55 1864 3468"
+      }
+    }
+  },
+
+  "menu-item#footer-contact-peru": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+51933245813",
+        "text": "Perú: (+51) 933 245813"
+      }
+    }
+  },
+
+  "menu-item#footer-contact-chile": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+56988130017",
+        "text": "Chile: (+56) 9 8813 0017 |"
+      }
+    }
+  },
+
+  "menu-item#footer-contact-ecuador": {
+    "props": {
+      "blockClass": ["title-menu","footer-all"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+593989020121",
+        "text": "Ecuador: (+593) 98 902 0121"
+      }
+    }
+  }
+}

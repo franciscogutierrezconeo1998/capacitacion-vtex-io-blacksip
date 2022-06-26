@@ -1,0 +1,88 @@
+@import url('../../configs/global.css');
+
+.flexRow--flexRowFooterDesktop,
+.flexRow--flexRowFooter {
+  background: #000;
+}
+
+.flexRow--flexRowFooterDesktop {
+  padding: 3rem;
+}
+
+.flexColChild--flexColMainDesktopContent {
+  height: auto !important;
+}
+
+.flexRow--flexRowFooter :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flexRowContent--flexRowTextCopy2 {
+  justify-content: space-around;
+  padding: 0 8rem 1rem 8rem;
+}
+
+.flexRowContent--flexRowSocialNetworks {
+  justify-content: space-around;
+  padding: 2rem 5rem;
+}
+
+.flexRow--flexRowMetodosDePago {
+  padding: 0 1rem;
+}
+
+.flexColChild--flexColFooter {
+  display: contents;
+}
+
+.flexRowContent--flexRowImageMetodosDePago {
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+
+.flexRowContent--flexRowMetodosDePago :global(.vtex-rich-text-0-x-container--accordion-title) {
+  padding: 0 0.6rem;
+}
+
+.flexRow--flexRowMetodosDePago {
+  margin-bottom: 2rem;
+}
+
+.flexRow--flexRowCopyRight {
+  background: #fff;
+}
+
+@media (min-width: 40em) {
+  .flexRowContent--flexRowTextCopy2 {
+    padding: 0.9rem 1rem 0rem 0.5rem;
+  }
+
+  .flexRowContent--flexRowMetodosDePago :global(.vtex-rich-text-0-x-container--accordion-title) {
+    justify-content: center;
+  }
+
+  .flexRowContent--flexRowImageMetodosDePago {
+    padding: 0 13rem;
+  }
+
+  .flexRowContent--flexRowSocialNetworks {
+    padding: 0 15rem;
+  }
+
+  .flexCol--flexColCopyRight {
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 64em) {
+  .flexRowContent--flexRowImageMetodosDePago {
+    padding: 0 5rem 0 0;
+    justify-content: space-between;
+  }
+
+  .flexRowContent--flexRowSocialNetworks {
+    padding: 0;
+    justify-content: flex-end;
+  }
+}

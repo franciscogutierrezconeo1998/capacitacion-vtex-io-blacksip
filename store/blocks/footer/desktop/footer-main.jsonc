@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#footer": {
+    "title": "Fila principal de footer pra desktop",
+    "props": {
+      "blockClass": "flexRowFooterDesktop"
+    },
+    "children": [
+      "flex-layout.col#footer-main-desktop"
+    ]
+  },
+
+  "flex-layout.col#footer-main-desktop": {
+    "props": {
+      "blockClass": "flexColMainDesktop"
+    },
+    "children": [
+      "flex-layout.row#footer-image-social",
+      "flex-layout.row#footer-main-desktop-content"
+    ]
+  },
+
+  "flex-layout.row#footer-main-desktop-content": {
+    "title": "Fila principal contenido de footer",
+    "props": {
+      "blockClass": "flexRowContentDesktop"
+    },
+    "children": [
+      "flex-layout.col#footer-main-desktop-1",
+      "flex-layout.col#footer-main-desktop-2",
+      "flex-layout.col#footer-main-desktop-3",
+      "flex-layout.col#footer-main-desktop-4"
+    ]
+  }
+}
